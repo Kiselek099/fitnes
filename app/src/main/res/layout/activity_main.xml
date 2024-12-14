@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/mainTB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/toolbar">
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <ImageView
+            android:id="@+id/titleIV"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_gravity="center">
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/toolbar"
+            android:text="ТРЕНИРУЕМСЯ ВМЕСТЕ"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:gravity="center">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="В здоровом теле - здоровый дух!"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            android:gravity="center">
+        </TextView>
+        <Button
+            android:id="@+id/nextBTN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Переход к тренировке"
+            android:textSize="20sp"
+            android:layout_marginTop="16dp">
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>
